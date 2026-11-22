@@ -1,0 +1,21 @@
+auris
+Copyright (C) 2026 AristarkhKenebas
+Licensed under the GNU Affero General Public License, version 3 or later.
+
+src/tables.rs holds the Huffman codebooks, scalefactor band offsets and TNS
+band limits defined by ISO/IEC 14496-3. They were transcribed by a script from
+FFmpeg's libavcodec/aactab.c:
+
+    Copyright (c) 2005-2006 Oded Shimon
+    Copyright (c) 2006-2007 Maxim Gavrilov
+
+which is licensed under the GNU Lesser General Public License, version 2.1 or
+later. As section 3 of that licence allows, they are used here under the terms
+of the GNU General Public License, version 3, and combined with this work under
+the GNU Affero General Public License, version 3 or later.
+
+Everything else was written for this project from the published descriptions
+of MPEG-2/4 AAC Low Complexity and checked against FFmpeg's decoder output.
+
+tests/data holds short streams encoded by FFmpeg from synthetic test tones and
+FFmpeg's own decoding of them, used as reference output.

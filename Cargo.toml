@@ -1,0 +1,10 @@
+[package]
+name = "auris"
+version = "0.1.0"
+description = "AAC-LC без привязки к ОС: декодер и кодер MPEG-2/4 AAC Low Complexity, упаковка LATM и ADTS"
+edition = "2024"
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/Redox-openDriver/auris"
+
+[dependencies]
+libm = "0.2.16"
